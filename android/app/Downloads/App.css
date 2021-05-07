@@ -1,0 +1,123 @@
+.App {
+  text-align: center;
+  background: url("https://images4.alphacoders.com/477/thumb-1920-47766.jpg");
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/************************************************************************************************************** 
+                                              LOGIN  PAGE CSS
+***************************************************************************************************************/
+
+.form-data {
+  margin-top: 120px;
+}
+
+.header-text {
+  color: #fff;
+  font-family: "Fredoka One", cursive;
+  font-size: 60px;
+  letter-spacing: 3px;
+}
+
+.mid-text {
+  font-family: "Balsamiq Sans", cursive;
+  color: aliceblue;
+  font-size: 40px;
+  letter-spacing: 1px;
+}
+.normal-text {
+  font-family: "Jost", sans-serif;
+  color: aliceblue;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+.login-button {
+  width: 25%;
+  border-radius: 20px;
+  height: 40px;
+  border: none;
+  border: 2px solid w;
+  background-color: #23d954;
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 25px;
+  outline: none !important;
+}
+
+.login-button:hover {
+  opacity: 0.8;
+  outline: none;
+}
+
+.input-login {
+  width: 100%;
+  border-radius: 25px;
+  border: 2px solid #fa3802;
+  height: 45px;
+  outline: none;
+}
+
+.input-login::placeholder {
+  font-family: "Jost", sans-serif;
+  font-size: 20px;
+  padding: 20px;
+}
+
+input[type="text"],
+[type="password"],
+[type="email"],
+select.form-control {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-family: "Jost", sans-serif;
+  padding: 15px;
+  font-size: 20px;
+}
+
+/*****************************************************************************************************
+                                     LOGIN PAGE MEDIA QUERY
+*****************************************************************************************************/
+
+@media (max-width: 800px) {
+  .form-data {
+    margin-top: 80px;
+  }
+
+  .header-text {
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+
+  .mid-text {
+    font-size: 20px;
+  }
+  .normal-text {
+    font-size: 17px;
+  }
+
+  .login-button {
+    border-radius: 20px;
+    height: 40px;
+    font-size: 15px;
+  }
+
+  .input-login {
+    border-radius: 25px;
+    height: 40px;
+  }
+
+  .input-login::placeholder {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  input[type="text"],
+  [type="password"],
+  select.form-control {
+    padding: 10px;
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "598503184831",
+    "project_id": "empapp-6ae43",
+    "storage_bucket": "empapp-6ae43.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598503184831:android:2d6fd4c5bf99d94a34e90a",
+        "android_client_info": {
+          "package_name": "com.empapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598503184831-tud995sfideds1kmhefksb5v95j3v0a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbnoHEh1MlT1niUJqYIEvfoN21-L-2y4o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598503184831-tud995sfideds1kmhefksb5v95j3v0a6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
